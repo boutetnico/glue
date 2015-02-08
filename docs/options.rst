@@ -14,7 +14,7 @@ The criteria that ``glue`` uses to order the images before adding them to the ca
 
 .. code-block:: bash
 
-    $ glue source output --algorithm=[square|vertical|hortizontal|diagonal|vertical-right|horizontal-bottom]
+    $ glue source output --algorithm=[square|square-ordered|vertical|hortizontal|diagonal|vertical-right|horizontal-bottom]
 
 
 -c --crop

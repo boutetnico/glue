@@ -82,10 +82,10 @@ def main(argv=None):
                        metavar='NAME',
                        type=unicode,
                        default=os.environ.get('GLUE_ALGORITHM', 'square'),
-                       choices=['square', 'vertical', 'horizontal',
+                       choices=['square', 'square-ordered', 'vertical', 'horizontal',
                                 'vertical-right', 'horizontal-bottom',
                                 'diagonal'],
-                       help=("Allocation algorithm: square, vertical, "
+                       help=("Allocation algorithm: square, square-ordered, vertical, "
                              "horizontal, vertical-right, horizontal-bottom, "
                              "diagonal. (default: square)"))
 
